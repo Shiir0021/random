@@ -1,0 +1,42 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    
+    while (true){
+   string letter;
+   
+   
+   
+   cout<<" A if you want a birthday greeting\n";
+   cout<<" B if you want a good morning\n";
+   cout<<"type here:";
+   cin>>letter;
+   
+  if (letter == "a"){
+  
+  cout<<"Happy Birthday to you!\n";
+   cout<<"Happy Birthday to you!\n";
+    cout<<"Happy birthday. Happy birthday.\n";
+    cout<<"Happy Birthday to you!\n";
+  }
+  
+  else if (letter == "b" ){
+      cout<<"Good morning!";
+  }
+ 
+    char choice;
+    cout<<"do you want to run it again? Y/N";
+    cout<<":";
+    cin>>choice;
+    
+    if (choice == 'n' || choice == 'N')
+    {
+        break;
+    }
+    
+}
+
+    return 0;
+}
